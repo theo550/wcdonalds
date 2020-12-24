@@ -58,6 +58,9 @@ export default {
       ]
     }
   },
+  head(){
+    title: 'Wcdonalds'
+  },
   methods: {
     addTo(addEvent){
       this.total += addEvent.price
